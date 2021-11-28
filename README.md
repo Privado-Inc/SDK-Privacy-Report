@@ -1,2 +1,2 @@
 # SDK-Privacy-Report
-Privacy details of SDKs for Apple Privacy Nutrition &amp; Google Safety Section disclosure.
+Community maintained & sourced documentation of privacy details of popular SDKs. Details include data collected/shared, purposes, tracking details which app developers can use to fill the privacy forms for Apple Privacy Nutrition & Google Safety Section.
