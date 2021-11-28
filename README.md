@@ -27,3 +27,5 @@ We have a CSV file and a Readme file for SDK privacy details of Apple & Google. 
 4. Steps to fill the Google Safety Section Form:
 
 ## How to Contribute
+1. If there is a SDK missing and you want us to add information, start an issue. Also, if you have any questions or want to report incorrect information, please create an issue.
+2. To add information of SDK or edit it, edit the CSV file and submit a pull request.
