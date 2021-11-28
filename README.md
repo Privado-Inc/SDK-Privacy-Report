@@ -16,6 +16,7 @@ Refer to the
 
 
 **SDK Privacy Report for Android**
+
 Google Data Safety Section will become mandatory in Feb'22. SDKs have not released official documentation yet and we have used their documentation for Apple Privacy Nutrition to create this. Few things to note:
 1. Required/Optional Data: Depends on Opt-in(Consent) or Opt-Out if implemented. Most of the Ad SDKs have that implemented but for certain regions like EU, California, China. If you are in India and not using this, please fill Required.
 2. We will be in touch with the SDK owners to get more details and update source as we get more information.
