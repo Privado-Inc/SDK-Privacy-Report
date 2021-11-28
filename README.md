@@ -14,6 +14,7 @@ We have a CSV file and a Readme file for SDK privacy details of Apple & Google. 
 | Firebase Analytics  | User ID  | Yes  | No | Analytics |   |
 
 
+
 **SDK Privacy Report for Google**
 | SDK  | Data Types Collected | Shared  | Processed ephemerally? | Required or Optional? | Purposes |Source |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -29,3 +30,14 @@ We have a CSV file and a Readme file for SDK privacy details of Apple & Google. 
 ## How to Contribute
 1. If there is a SDK missing and you want us to add information, start an issue. Also, if you have any questions or want to report incorrect information, please create an issue.
 2. To add information of SDK or edit it, edit the CSV file and submit a pull request.
+
+## SDKs WIP
+So far the project has details of 24 SDKs. We are working to add details for the following SDKs:
+1. Pubmatic
+2. Facebook SDK - Share, Places
+3. Google Tag Manager
+4. Inmobi
+5. Vungle
+6. Twilio
+7. Zendesk
+8. Amplitude
