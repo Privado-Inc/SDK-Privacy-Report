@@ -7,11 +7,17 @@ As a part of iOS 14 update, Apple made it mandatory for app developers to disclo
 ## Repository Structure
 We have a CSV file and a Readme file for SDK privacy details of Apple & Google. For Apple, there is more documentation and we have relied on official documentation to create this list. For Google, we have used the documentation released for apple privacy labels to create this and will be updating as more google specific documentation is released by companies. 
 
-SDK Privacy Report for Apple:
+**SDK Privacy Report for Apple:**
 | SDK  | Data Types Collected | Linked to User Identity  | Used for Tracking | Purposes | Source |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Name of the SDK  | Data types as defined by Apple  | Yes/No based on linking  | Yes/No based on tracking  | Purposes as defined by Apple  | Source of this information  |
 | Firebase Analytics  | User ID  | Yes  | No | Analytics |   |
+
+**SDK Privacy Report for Google**
+| SDK  | Data Types Collected | Shared  | Is this data processed ephemerally? | Required or Optional? | Purposes |Source |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Name of the SDK  | Data types as defined by Apple  | Yes/No based on linking  | Yes/No based on tracking  | Purposes as defined by Apple  | Source of this information  |
+| Google Admob  | Approximate Location  | Yes  | No | Required |  "Advertising or marketing, Analytics, Fraud prevention, security and compliance | |
 
 ## Resources
 1. Apple Privacy Nutrition Label:
