@@ -11,7 +11,7 @@ SDK Privacy Report for Apple:
 | SDK  | Data Types Collected | Linked to User Identity  | Used for Tracking | Purposes | Source |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Name of the SDK  | Data types as defined by Apple  | Yes/No based on linking  | Yes/No based on tracking  | Purposes as defined by Apple  | Source of this information  |
-| Firebase Analytics  | User ID  | Yes  | No | Analytics | https://support.google.com/analytics/answer/10285841  |
+| Firebase Analytics  | User ID  | Yes  | No | Analytics |   |
 
 ## Resources
 1. Apple Privacy Nutrition Label:
