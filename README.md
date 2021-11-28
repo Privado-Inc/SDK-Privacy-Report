@@ -21,7 +21,7 @@ We have a CSV file and a Readme file for SDK privacy details of Apple & Google. 
 | Name of the SDK  | Data types as defined by Google  | Yes/No based on sharing  | | | Purposes as defined by Apple | Source of this information|
 | Google Admob  | Approximate Location  | Yes  | No | Required |  "Advertising or marketing, Analytics, Fraud prevention, security and compliance | |
 
-## Resources
+## 📄 Resources
 1. Apple Privacy Nutrition Label:
 2. Steps to fill the Apple Privacy Nutrition Label Form:
 3. Google Safety Section Announcement:
@@ -31,7 +31,7 @@ We have a CSV file and a Readme file for SDK privacy details of Apple & Google. 
 1. If there is a SDK missing and you want us to add information, start an issue. Also, if you have any questions or want to report incorrect information, please create an issue.
 2. To add information of SDK or edit it, edit the CSV file and submit a pull request.
 
-## SDKs WIP
+## 🚧 SDKs WIP
 So far the project has details of 24 SDKs. We are working to add details for the following SDKs:
 1. Pubmatic
 2. Facebook SDK - Share, Places
