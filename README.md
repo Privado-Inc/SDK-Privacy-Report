@@ -13,11 +13,11 @@ We have a CSV file and a Readme file for SDK privacy details of Apple & Google. 
 | Name of the SDK  | Data types as defined by Apple  | Yes/No based on linking  | Yes/No based on tracking  | Purposes as defined by Apple  | Source of this information  |
 | Firebase Analytics  | User ID  | Yes  | No | Analytics |   |
 
-**SDK Privacy Report for Google**
 
+**SDK Privacy Report for Google**
 | SDK  | Data Types Collected | Shared  | Is this data processed ephemerally? | Required or Optional? | Purposes |Source |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Name of the SDK  | Data types as defined by Apple  | Yes/No based on linking  | Yes/No based on tracking  | Purposes as defined by Apple  | Source of this information  |
+| Name of the SDK  | Data types as defined by Google  | Yes/No based on sharing  | | | Purposes as defined by Apple | Source of this information|
 | Google Admob  | Approximate Location  | Yes  | No | Required |  "Advertising or marketing, Analytics, Fraud prevention, security and compliance | |
 
 ## Resources
