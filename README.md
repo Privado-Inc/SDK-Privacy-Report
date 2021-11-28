@@ -28,10 +28,10 @@ Google Data Safety Section will become mandatory in Feb'22. SDKs have not releas
 | Google Admob  | Approximate Location  | Yes  | No | Required |  "Advertising or marketing, Analytics, Fraud prevention, security and compliance | |
 
 ## 📄 Resources
-1. Apple Privacy Nutrition Label:
-2. Steps to fill the Apple Privacy Nutrition Label Form:
-3. Google Safety Section Announcement:
-4. Steps to fill the Google Safety Section Form:
+1. Apple Privacy Nutrition Label: https://developer.apple.com/app-store/app-privacy-details/
+2. Steps to fill the Apple Privacy Nutrition Label Form: https://help.apple.com/app-store-connect/#/dev1b4647c5b
+3. Google Safety Section Announcement: https://android-developers.googleblog.com/2021/10/launching-data-safety-in-play-console.html
+4. Steps to fill the Google Safety Section Form: https://support.google.com/googleplay/android-developer/answer/10787469?hl=en
 
 ## How to Contribute
 1. If there is a SDK missing and you want us to add information, start an issue. Also, if you have any questions or want to report incorrect information, please create an issue.
