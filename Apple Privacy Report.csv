@@ -1,7 +1,0 @@
-﻿SDK,Data Types Collected,Linked to User Identity,Used for Tracking,Purpose,Source
-Google Firebase Analytics,User ID,Yes,No,Analytics,https://support.google.com/analytics/answer/10285841
-,Coarse Location,Yes,No,Analytics,https://support.google.com/firebase/answer/9234069?visit_id=637731025758489983-1306152679&rd=1
-,Purchases,Yes,No,Analytics,https://support.google.com/firebase/answer/9268042?visit_id=637731025758489983-1306152679&rd=1
-,Product Interaction,Yes,No,Analytics,
-,Performance Data,Yes,No,Analytics,
-,Crash Data,Yes,No,Analytics,
