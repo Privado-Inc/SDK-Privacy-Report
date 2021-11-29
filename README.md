@@ -45,4 +45,4 @@ So far the project has details of 24 SDKs. We are working to add details for the
 6. Twilio
 7. Zendesk
 8. Amplitude
-9. cleverTap
+9. CleverTap
