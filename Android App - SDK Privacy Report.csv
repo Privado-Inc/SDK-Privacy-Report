@@ -119,5 +119,7 @@ Google Maps SDK,Device or other identifiers,Yes,No,Required,Analytics,https://de
 Google Maps SDK,Crash logs,Yes,No,Required,Analytics,
 Google Maps SDK,Diagnostics,Yes,No,Required,Analytics,
 Google Maps SDK,Page views and taps in app(check implementation),Yes,No,Optional,Analytics,
+Google Maps SDK,Precise Location,Yes,No,Optional,App functionality,
+Google Maps SDK,Approximate Location,Yes,No,Optional,App functionality,
 ,,,,,,
 ,,,,,,
