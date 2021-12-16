@@ -124,7 +124,7 @@ AdColony,Performance Data,Yes,Yes,"Third-Party Advertising, Analytics, Other Pur
 ironSource,Device ID,Yes,Yes,Third-Party Advertising,https://developers.is.com/ironsource-mobile/unity/apples-privacy-questionnaire-answers-ironsource/,
 ironSource,Product Interaction*,Yes,No,Third-Party Advertising,,
 ironSource,Advertising Data,Yes,No,Third-Party Advertising,,
-ironSource,Performance Data,Yes,Third-Party Advertising,Confirmed by support team
+ironSource,Performance Data,Yes,No,Third-Party Advertising,Confirmed by support team,
 Fyber,Precise Location*(Optional),Yes,Yes,Third Party Advertising,https://developer.fyber.com/hc/en-us/articles/360015740457-Apple-s-App-Privacy-Details,
 Fyber,Coarse Location*(Optional),Yes,Yes,Third Party Advertising,,
 Fyber,User ID,Yes,Yes,Third Party Advertising,,
