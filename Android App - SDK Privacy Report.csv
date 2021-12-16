@@ -115,5 +115,9 @@ Revenue Cat,Purchase history,Yes,No,Required,"Analytics, App Functionality",http
 Revenue Cat,Personal Identifiers*(Check Implementation),Yes,No,Optional,"Analytics, App Functionality",
 Revenue Cat,Device or other identifiers,Yes,No,Optional,"Analytics, App Functionality",
 Revenue Cat,"Contact Info*(Optional, need to look at implementation)",Yes,No,Optional,"Analytics, App Functionality",
+Google Maps SDK,Device or other identifiers,Yes,No,Required,Analytics,https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure
+Google Maps SDK,Crash logs,Yes,No,Required,Analytics
+Google Maps SDK,Diagnostics,Yes,No,Required,Analytics
+Google Maps SDK,Page views and taps in app(check implementation),Yes,No,Optional,Analytics
 ,,,,,,
 ,,,,,,
