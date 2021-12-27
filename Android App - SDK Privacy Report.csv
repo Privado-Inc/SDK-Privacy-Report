@@ -1,6 +1,6 @@
 ﻿SDK,Data Types Collected,Shared,Processed ephemerally?,Required or Optional?,Purposes,Source
 Google AdMob,Approximate location,Yes,No,Required,"Advertising or marketing, Analytics, 
-Fraud prevention, security and compliance",https://support.google.com/googleplay/android-developer/answer/10787469?hl=en-GB#types&zippy=%2Cdata-types%2Cother-app-and-data-disclosures%2Chow-should-i-treat-the-collection-and-use-of-ip-addresses
+Fraud prevention, security and compliance",https://developers.google.com/admob/android/play-data-disclosure
 Google AdMob,Page views and taps in app,Yes,No,Required,"Advertising or marketing, Analytics, 
 Fraud prevention, security and compliance",
 Google AdMob,Diagnostics,Yes,No,Required,"Advertising or marketing, Analytics, 
