@@ -111,10 +111,10 @@ Stripe,Personal Identifiers,Yes,No,Required,App functionality,https://support.st
 Stripe,Page views and taps in app,Yes,No,Required,"App functionality, Analytics",
 Stripe,"Credit card, debit card or bank account number*(Optional, need to look at implementation)",Yes,No,Optional,App functionality,
 Stripe,"Email, Phone Number*(Optional, need to look at implementation)",Yes,No,Optional,App functionality,
-Revenue Cat,Purchase history,Yes,No,Required,"Analytics, App Functionality",https://docs.revenuecat.com/docs/apple-app-privacy
+Revenue Cat,Purchase history,Yes,No,Required,"Analytics, App Functionality",https://docs.revenuecat.com/docs/google-plays-data-safety#whats-next
 Revenue Cat,Personal Identifiers*(Check Implementation),Yes,No,Optional,"Analytics, App Functionality",
-Revenue Cat,Device or other identifiers,Yes,No,Optional,"Analytics, App Functionality",
-Revenue Cat,"Contact Info*(Optional, need to look at implementation)",Yes,No,Optional,"Analytics, App Functionality",
+Revenue Cat,Device or other identifiers*(Check Implementation),Yes,No,Optional,"Analytics, App Functionality",
+Revenue Cat,"Name, Email address, Phone number*(Optional, need to look at implementation)",Yes,No,Optional,"Analytics, App Functionality",
 Google Maps SDK,Device or other identifiers,Yes,No,Required,Analytics,https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure
 Google Maps SDK,Crash logs,Yes,No,Required,Analytics,
 Google Maps SDK,Diagnostics,Yes,No,Required,Analytics,
