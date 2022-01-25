@@ -1,135 +1,128 @@
-﻿SDK,Data Types Collected,Shared,Processed ephemerally?,Required or Optional?,Purposes,Source
-Google AdMob,Approximate location,Yes,No,Required,"Advertising or marketing, Analytics, 
-Fraud prevention, security and compliance",https://developers.google.com/admob/android/play-data-disclosure
-Google AdMob,Page views and taps in app,Yes,No,Required,"Advertising or marketing, Analytics, 
-Fraud prevention, security and compliance",
-Google AdMob,Diagnostics,Yes,No,Required,"Advertising or marketing, Analytics, 
-Fraud prevention, security and compliance",
-Google AdMob,Device or other identifiers,Yes,No,Optional,"Advertising or marketing, Analytics, 
-Fraud prevention, security and compliance",
-Google CrashLytics,Crash logs,Yes,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure#crashlytics
-Google CrashLytics,Page views and taps in app*(If you have Firebase Google Analytics),Yes,No,Required,Analytics,
-Google CrashLytics,Personal identifiers,Yes,No,Required,Analytics,
-Facebook SDK: Login,Personal identifiers,Yes,No,Required,App functionality,https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
-Facebook SDK: Login,Device or other identifiers,Yes,No,Required,App functionality,
-Facebook SDK: App Events & Analytics,Personal identifiers,Yes,No,Required,"Advertising or marketing, Analytics",https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
-Facebook SDK: App Events & Analytics,Purchase history,Yes,No,Required,"Advertising or marketing, Analytics",
-Facebook SDK: App Events & Analytics,Page views and taps in app,Yes,No,Required,"Advertising or marketing, Analytics",
-Facebook SDK: App Events & Analytics,"In-app search history*(Standard events, check if you are sharing this with FB)",Yes,No,"Optional, if you have a Opt-In/Opt-out implemented. Else Required.","Advertising or marketing, Analytics",https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
-Facebook SDK: App Events & Analytics,Contact - TBD,Yes,No,"Optional, if you have a Opt-In/Opt-out implemented. Else Required.","Advertising or marketing, Analytics",
-Facebook SDK: App Events & Analytics,Name(For Advanced Matching),Yes,No,Required,"Advertising or marketing, Analytics",
-Facebook SDK: App Events & Analytics,Email address(For Advanced Matching),Yes,No,Required,"Advertising or marketing, Analytics",
-Facebook SDK: App Events & Analytics,Phone number(For Advanced Matching),Yes,No,Required,"Advertising or marketing, Analytics",
-Facebook SDK: App Events & Analytics,Address(For Advanced Matching),Yes,No,Required,"Advertising or marketing, Analytics",
-Unity3d Ads,Approximate location,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",https://unityads.unity3d.com/help/ios/apple-privacy-survey
-Unity3d Ads,Other user-generated content*(Unity Ads may collect this information if a user submits a report of an ad creative),Yes,No,Optional,App functionality,http://documentation.cloud.unity3d.com/en/articles/4702483-apple-nutritional-labels
-Unity3d Ads,Personal identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),App functionality,
-Unity3d Ads,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,Purchase history,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,Other actions,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,Other app performance data,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Analytics,Approximate Location,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,http://documentation.cloud.unity3d.com/en/articles/4694233-apple-nutritional-info-unity-analytics
-Unity Analytics,Personal Identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,https://docs.unity3d.com/Manual/UnityAnalyticsDataPrivacy.html
-Unity Analytics,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,Purchase history,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,Other Performance Data,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,Other Data Types*(Check implementation),Yes,No,Optional(Given you implement consent/Opt-Out),"Developer communication, Analytics, App functionality",
-Unity deltaDNA,Approximate Location,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694239-apple-nutritional-info-deltadna
-Unity deltaDNA,Personal Identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,Purchase history,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,Other actions,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,Other Data Types(Check Implementation),Yes,No,Optional(Given you implement consent/Opt-Out),"Developer communication, Analytics, App functionality, Personalization",
-Unity GameTune,Approximate Location,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694234-apple-nutritional-info-gametune
-Unity GameTune,Personal Identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",https://docs.gametune.unity3d.com/#privacy-consent-handling
-Unity GameTune,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,Purchase history,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,Other actions,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,Diagnostic Data*(May Collect Data),Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Remote Config,Personal Identifiers,Yes,No,Required,"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694241-apple-nutritional-info-remote-config
-Unity Remote Config,Device or other identifiers,Yes,No,Required,"Analytics, Personalization",
-Unity IAP,Purchases,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",http://documentation.cloud.unity3d.com/en/articles/4694224-apple-nutritional-info-unity-iap
-Unity Crash Analytics,Other user-generated content,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",http://documentation.cloud.unity3d.com/en/articles/4704486-apple-nutritional-info-crash-analytics
-Unity Crash Analytics,Personal Identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Crash logs,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Other app performance data,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Diagnostic Data,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Flurry: Analytics,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,https://www.flurry.com/blog/flurry-guidance-apple-app-privacy-details/
-Flurry: Analytics,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Flurry: Analytics,Other actions,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-AppsFlyer,Email address (including hashed)*(Look at your implementation),Yes,No,Optional,"App functionality, Analytics",
-AppsFlyer,"Phone number (including hashed)
-*(Look at your implementation)",Yes,No,Optional,"App functionality, Analytics",https://support.appsflyer.com/hc/en-us/articles/207032086-Preparing-for-the-App-Store-review-nutrition-labels
-AppsFlyer,Approximate location,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-AppsFlyer,Personal identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-AppsFlyer,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics, App functionality",
-AppsFlyer,Purchase history*(Optional),Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-AppsFlyer,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-AppsFlyer,Other app performance data,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-AppsFlyer,"Other data(IDFV, AppsFlyer ID, Technical device information)",Yes,No,Optional(Given you implement consent/Opt-Out),Draft,
-MoPub,Precise Location*(Check configuration),Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",https://developers.mopub.com/publishers/ios/app-privacy-details/
-MoPub,Approximate Location*(Check configuration),Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-MoPub,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-MoPub,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-MoPub,Other Data Types*(device make and model data as well as cell carrier data where available),Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-AdColony,Approximate Location,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",https://www.adcolony.com/blog/2020/11/19/get-your-ios-14-nutritional-label-ready/
-AdColony,Other actions,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-AdColony,Personal Identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-AdColony,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-AdColony,Page views and taps in app,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-AdColony,Purchase history,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-AdColony,Crash logs,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-AdColony,Other app performance data,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-ironSource,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,https://developers.is.com/ironsource-mobile/unity/apples-privacy-questionnaire-answers-ironsource/
-ironSource,Page views and taps in app*,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
-ironSource,Other app performance data,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
-Fyber,Precise Location,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,https://developer.fyber.com/hc/en-us/articles/360015740457-Apple-s-App-Privacy-Details
-Fyber,Approximate Location,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
-Fyber,Personal Identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
-Fyber,Device or other identifiers,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
-Fyber,Crash logs,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
-Fyber,Other actions*(Offer Wall Customers only),Yes,No,Optional(Given you implement consent/Opt-Out),App functionality,
-Intercom,Email address,Yes,No,Required,"Developer communications, App functionality",https://www.intercom.com/help/en/articles/4686934-apple-s-app-store-data-privacy-details-and-intercom-s-ios-sdk
-Intercom,Approximate Location,Yes,No,Required,App functionality,
-Intercom,Photos,Yes,No,Required,App functionality,
-Intercom,Videos,Yes,No,Required,App functionality,
-Intercom,Other actions,Yes,No,Required,App functionality,
-Intercom,In-app search history,Yes,No,Required,"Analytics, App functionality",
-Intercom,Device or other identifiers,Yes,No,Required,"Developer communications, App functionality, Analytics",
-Intercom,Page views and taps in app,Yes,No,Required,"Developer communications, App functionality, Analytics",
-Intercom,Custom Data as Events - Please check,Yes,No,Required,"Select based on implementation, will be from above list",
-Mixpanel,Approximate Location,Yes,No,Required,"Developer communications, Analytics",https://mixpanel.com/legal/app-store-privacy-details/
-Mixpanel,Personal Identifiers,Yes,No,Required,"Developer communications, Analytics",
-Mixpanel,Device or other identifiers,Yes,No,Required,"Developer communications, Analytics",
-Mixpanel,Page views and taps in app,Yes,No,Required,"Developer communications, Analytics",
-Mixpanel,Custom Data as Events - Please check with developers who implemented Mixpanel,Yes,No,Required,Select  from above purposes,
-Stripe,Personal Identifiers,Yes,No,Required,App functionality,https://support.stripe.com/questions/stripe-ios-sdk-privacy-details
-Stripe,Page views and taps in app,Yes,No,Required,"App functionality, Analytics",
-Stripe,"Credit card, debit card or bank account number*(Optional, need to look at implementation)",Yes,No,Optional,App functionality,
-Stripe,"Email, Phone Number*(Optional, need to look at implementation)",Yes,No,Optional,App functionality,
-Revenue Cat,Purchase history,Yes,No,Required,"Analytics, App Functionality",https://docs.revenuecat.com/docs/google-plays-data-safety#whats-next
-Revenue Cat,Personal Identifiers*(Check Implementation),Yes,No,Optional,"Analytics, App Functionality",
-Revenue Cat,Device or other identifiers*(Check Implementation),Yes,No,Optional,"Analytics, App Functionality",
-Revenue Cat,"Name, Email address, Phone number*(Optional, need to look at implementation)",Yes,No,Optional,"Analytics, App Functionality",
-Google Maps SDK,Device or other identifiers,Yes,No,Required,Analytics,https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure
-Google Maps SDK,Crash logs,Yes,No,Required,Analytics,
-Google Maps SDK,Diagnostics,Yes,No,Required,Analytics,
-Google Maps SDK,Page views and taps in app(check implementation),Yes,No,Optional,Analytics,
-Google Maps SDK,Precise Location,Yes,No,Optional,App functionality,
-Google Maps SDK,Approximate Location,Yes,No,Optional,App functionality,
-Snowplow SDK,Approximate Location,Yes,No,Optional,Analytics,https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/mobile-trackers/android-google-play-data-safety/
-Snowplow SDK,Page views and taps in app,Yes,No,Optional,Analytics,
-Snowplow SDK,Other actions,Yes,No,Optional,Analytics,
-Snowplow SDK,Crash logs,Yes,No,Optional,Analytics,
-Snowplow SDK,Diagnostics,Yes,No,Optional,Analytics,
-Snowplow SDK,Device or other identifiers,Yes,No,Optional,Analytics,
-Branch,Page views and taps in app,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",https://help.branch.io/using-branch/docs/answering-the-google-play-store-privacy-questions
-Branch,Other user-generated content,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
-Branch,Web browsing history,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
-Branch,Device or Other Identifiers,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
-,,,,,,
-,,,,,,
+﻿SDK,Data Types,Collected,Shared,Processed ephemerally?,Required or Optional?,Purposes,Source
+Google AdMob,Approximate location,Yes,Yes,No,Required,"Advertising or marketing, Analytics, Fraud prevention, security and compliance",https://developers.google.com/admob/android/play-data-disclosure
+Google AdMob,Page views and taps in app,Yes,Yes,No,Required,"Advertising or marketing, Analytics, Fraud prevention, security and compliance",
+Google AdMob,Diagnostics,Yes,Yes,No,Required,"Advertising or marketing, Analytics, Fraud prevention, security and compliance",
+Google AdMob,Device or other identifiers,Yes,Yes,No,Optional,"Advertising or marketing, Analytics, Fraud prevention, security and compliance",
+Google CrashLytics,Crash logs,Yes,Yes,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure#crashlytics
+Google CrashLytics,Page views and taps in app*(If you have Firebase Google Analytics),Yes,Yes,No,Required,Analytics,
+Google CrashLytics,Personal identifiers,Yes,Yes,No,Required,Analytics,
+Facebook SDK: Login,Personal identifiers,Yes,Yes,No,Required,App functionality,https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
+Facebook SDK: Login,Device or other identifiers,Yes,Yes,No,Required,App functionality,
+Facebook SDK: App Events & Analytics,Personal identifiers,Yes,Yes,No,Required,"Advertising or marketing, Analytics",https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
+Facebook SDK: App Events & Analytics,Purchase history,Yes,Yes,No,Required,"Advertising or marketing, Analytics",
+Facebook SDK: App Events & Analytics,Page views and taps in app,Yes,Yes,No,Required,"Advertising or marketing, Analytics",
+Facebook SDK: App Events & Analytics,"In-app search history*(Standard events, check if you are sharing this with FB)",Yes,Yes,No,"Optional, if you have a Opt-In/Opt-out implemented. Else Required.","Advertising or marketing, Analytics",https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
+Facebook SDK: App Events & Analytics,Contact - TBD,Yes,Yes,No,"Optional, if you have a Opt-In/Opt-out implemented. Else Required.","Advertising or marketing, Analytics",
+Facebook SDK: App Events & Analytics,Name(For Advanced Matching),Yes,Yes,No,Required,"Advertising or marketing, Analytics",
+Facebook SDK: App Events & Analytics,Email address(For Advanced Matching),Yes,Yes,No,Required,"Advertising or marketing, Analytics",
+Facebook SDK: App Events & Analytics,Phone number(For Advanced Matching),Yes,Yes,No,Required,"Advertising or marketing, Analytics",
+Facebook SDK: App Events & Analytics,Address(For Advanced Matching),Yes,Yes,No,Required,"Advertising or marketing, Analytics",
+Unity3d Ads,Approximate location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",https://unityads.unity3d.com/help/ios/apple-privacy-survey
+Unity3d Ads,Other user-generated content*(Unity Ads may collect this information if a user submits a report of an ad creative),Yes,Yes,No,Optional,App functionality,http://documentation.cloud.unity3d.com/en/articles/4702483-apple-nutritional-labels
+Unity3d Ads,Personal identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),App functionality,
+Unity3d Ads,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+Unity3d Ads,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+Unity3d Ads,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+Unity3d Ads,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+Unity3d Ads,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+Unity Analytics,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,http://documentation.cloud.unity3d.com/en/articles/4694233-apple-nutritional-info-unity-analytics
+Unity Analytics,Personal Identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,https://docs.unity3d.com/Manual/UnityAnalyticsDataPrivacy.html
+Unity Analytics,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
+Unity Analytics,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
+Unity Analytics,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
+Unity Analytics,Other Performance Data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
+Unity Analytics,Other Data Types*(Check implementation),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Developer communication, Analytics, App functionality",
+Unity deltaDNA,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694239-apple-nutritional-info-deltadna
+Unity deltaDNA,Personal Identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity deltaDNA,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity deltaDNA,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity deltaDNA,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity deltaDNA,Other Data Types(Check Implementation),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Developer communication, Analytics, App functionality, Personalization",
+Unity GameTune,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694234-apple-nutritional-info-gametune
+Unity GameTune,Personal Identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",https://docs.gametune.unity3d.com/#privacy-consent-handling
+Unity GameTune,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity GameTune,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity GameTune,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity GameTune,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
+Unity GameTune,Diagnostic Data*(May Collect Data),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
+Unity Remote Config,Personal Identifiers,Yes,Yes,No,Required,"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694241-apple-nutritional-info-remote-config
+Unity Remote Config,Device or other identifiers,Yes,Yes,No,Required,"Analytics, Personalization",
+Unity IAP,Purchases,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",http://documentation.cloud.unity3d.com/en/articles/4694224-apple-nutritional-info-unity-iap
+Unity Crash Analytics,Other user-generated content,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",http://documentation.cloud.unity3d.com/en/articles/4704486-apple-nutritional-info-crash-analytics
+Unity Crash Analytics,Personal Identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+Unity Crash Analytics,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+Unity Crash Analytics,Crash logs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+Unity Crash Analytics,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+Unity Crash Analytics,Diagnostic Data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+Flurry: Analytics,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,https://www.flurry.com/blog/flurry-guidance-apple-app-privacy-details/
+Flurry: Analytics,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
+Flurry: Analytics,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
+AppsFlyer,Email address (including hashed)*(Look at your implementation),Yes,Yes,No,Optional,"App functionality, Analytics",
+AppsFlyer,Phone number (including hashed) *(Look at your implementation),Yes,Yes,No,Optional,"App functionality, Analytics",https://support.appsflyer.com/hc/en-us/articles/207032086-Preparing-for-the-App-Store-review-nutrition-labels
+AppsFlyer,Approximate location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+AppsFlyer,Personal identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+AppsFlyer,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics, App functionality",
+AppsFlyer,Purchase history*(Optional),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+AppsFlyer,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+AppsFlyer,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
+AppsFlyer,"Other data(IDFV, AppsFlyer ID, Technical device information)",Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Draft,
+MoPub,Precise Location*(Check configuration),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",https://developers.mopub.com/publishers/ios/app-privacy-details/
+MoPub,Approximate Location*(Check configuration),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+MoPub,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+MoPub,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+MoPub,Other Data Types*(device make and model data as well as cell carrier data where available),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+AdColony,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",https://www.adcolony.com/blog/2020/11/19/get-your-ios-14-nutritional-label-ready/
+AdColony,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+AdColony,Personal Identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+AdColony,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+AdColony,Page views and taps in app,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+AdColony,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+AdColony,Crash logs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+AdColony,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
+ironSource,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,https://developers.is.com/ironsource-mobile/unity/apples-privacy-questionnaire-answers-ironsource/
+ironSource,Page views and taps in app*,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
+ironSource,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
+Fyber,Precise Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,https://developer.fyber.com/hc/en-us/articles/360015740457-Apple-s-App-Privacy-Details
+Fyber,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
+Fyber,Personal Identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
+Fyber,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
+Fyber,Crash logs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
+Fyber,Other actions*(Offer Wall Customers only),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),App functionality,
+Intercom,Email address,Yes,Yes,No,Required,"Developer communications, App functionality",https://www.intercom.com/help/en/articles/4686934-apple-s-app-store-data-privacy-details-and-intercom-s-ios-sdk
+Intercom,Approximate Location,Yes,Yes,No,Required,App functionality,
+Intercom,Photos,Yes,Yes,No,Required,App functionality,
+Intercom,Videos,Yes,Yes,No,Required,App functionality,
+Intercom,Other actions,Yes,Yes,No,Required,App functionality,
+Intercom,In-app search history,Yes,Yes,No,Required,"Analytics, App functionality",
+Intercom,Device or other identifiers,Yes,Yes,No,Required,"Developer communications, App functionality, Analytics",
+Intercom,Page views and taps in app,Yes,Yes,No,Required,"Developer communications, App functionality, Analytics",
+Intercom,Custom Data as Events - Please check,Yes,Yes,No,Required,"Select based on implementation, will be from above list",
+Mixpanel,Approximate Location,Yes,Yes,No,Required,"Developer communications, Analytics",https://mixpanel.com/legal/app-store-privacy-details/
+Mixpanel,Personal Identifiers,Yes,Yes,No,Required,"Developer communications, Analytics",
+Mixpanel,Device or other identifiers,Yes,Yes,No,Required,"Developer communications, Analytics",
+Mixpanel,Page views and taps in app,Yes,Yes,No,Required,"Developer communications, Analytics",
+Mixpanel,Custom Data as Events - Please check with developers who implemented Mixpanel,Yes,Yes,No,Required,Select from above purposes,
+Stripe,Personal Identifiers,Yes,Yes,No,Required,App functionality,https://support.stripe.com/questions/stripe-ios-sdk-privacy-details
+Stripe,Page views and taps in app,Yes,Yes,No,Required,"App functionality, Analytics",
+Stripe,"Credit card, debit card or bank account number*(Optional, need to look at implementation)",Yes,Yes,No,Optional,App functionality,
+Stripe,"Email, Phone Number*(Optional, need to look at implementation)",Yes,Yes,No,Optional,App functionality,
+Revenue Cat,Purchase history,Yes,Yes,No,Required,"Analytics, App Functionality",https://docs.revenuecat.com/docs/google-plays-data-safety#whats-next
+Revenue Cat,Personal Identifiers*(Check Implementation),Yes,Yes,No,Optional,"Analytics, App Functionality",
+Revenue Cat,Device or other identifiers*(Check Implementation),Yes,Yes,No,Optional,"Analytics, App Functionality",
+Revenue Cat,"Name, Email address, Phone number*(Optional, need to look at implementation)",Yes,Yes,No,Optional,"Analytics, App Functionality",
+Google Maps SDK,Device or other identifiers,Yes,Yes,No,Required,Analytics,https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure
+Google Maps SDK,Crash logs,Yes,Yes,No,Required,Analytics,
+Google Maps SDK,Diagnostics,Yes,Yes,No,Required,Analytics,
+Google Maps SDK,Page views and taps in app(check implementation),Yes,Yes,No,Optional,Analytics,
+Google Maps SDK,Precise Location,Yes,Yes,No,Optional,App functionality,
+Google Maps SDK,Approximate Location,Yes,Yes,No,Optional,App functionality,
+Snowplow SDK,Approximate Location,Yes,Yes,No,Optional,Analytics,https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/mobile-trackers/android-google-play-data-safety/
+Snowplow SDK,Page views and taps in app,Yes,Yes,No,Optional,Analytics,
+Snowplow SDK,Other actions,Yes,Yes,No,Optional,Analytics,
+Snowplow SDK,Crash logs,Yes,Yes,No,Optional,Analytics,
+Snowplow SDK,Diagnostics,Yes,Yes,No,Optional,Analytics,
+Snowplow SDK,Device or other identifiers,Yes,Yes,No,Optional,Analytics,
+Branch,Page views and taps in app,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",https://help.branch.io/using-branch/docs/answering-the-google-play-store-privacy-questions
+Branch,Other user-generated content,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
+Branch,Web browsing history,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
+Branch,Device or Other Identifiers,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
