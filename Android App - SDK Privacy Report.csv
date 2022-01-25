@@ -3,9 +3,9 @@ Google AdMob,Approximate location,Yes,Yes,No,Required,"Advertising or marketing,
 Google AdMob,Page views and taps in app,Yes,Yes,No,Required,"Advertising or marketing, Analytics, Fraud prevention, security and compliance",
 Google AdMob,Diagnostics,Yes,Yes,No,Required,"Advertising or marketing, Analytics, Fraud prevention, security and compliance",
 Google AdMob,Device or other identifiers,Yes,Yes,No,Optional,"Advertising or marketing, Analytics, Fraud prevention, security and compliance",
-Google CrashLytics,Crash logs,Yes,Yes,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure#crashlytics
-Google CrashLytics,Page views and taps in app*(If you have Firebase Google Analytics),Yes,Yes,No,Required,Analytics,
-Google CrashLytics,Personal identifiers,Yes,Yes,No,Required,Analytics,
+Google CrashLytics,Crash logs,Yes,No,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure#crashlytics
+Google CrashLytics,Page views and taps in app*(If you have Firebase Google Analytics),Yes,No,No,Required,Analytics,
+Google CrashLytics,Personal identifiers,Yes,No,No,Required,Analytics,
 Facebook SDK: Login,Personal identifiers,Yes,Yes,No,Required,App functionality,https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
 Facebook SDK: Login,Device or other identifiers,Yes,Yes,No,Required,App functionality,
 Facebook SDK: App Events & Analytics,Personal identifiers,Yes,Yes,No,Required,"Advertising or marketing, Analytics",https://developers.facebook.com/blog/post/2020/10/22/preparing-for-apple-app-store-data-disclosure-requirements/
@@ -79,49 +79,50 @@ AdColony,Page views and taps in app,Yes,Yes,No,Optional(Given you implement cons
 AdColony,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
 AdColony,Crash logs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
 AdColony,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-ironSource,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,https://developers.is.com/ironsource-mobile/unity/apples-privacy-questionnaire-answers-ironsource/
-ironSource,Page views and taps in app*,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
-ironSource,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
+ironSource,Device or other identifiers,Yes,Yes,No,Optional,"""Analytics, Advertising or marketing, Fraud prevention, security, and compliance""",https://developers.is.com/ironsource-mobile/general/google-data-safety-questionnaire/
+ironSource,Approximate location,Yes,Yes,No,Required,"""Analytics, Advertising or marketing, Fraud prevention, security, and compliance""",
+ironSource,Diagnostics,Yes,No,No,Required,"""Analytics, Advertising or marketing, Fraud prevention, security, and compliance""",
+ironSource,Other actions,Yes,Yes,No,Required,"""Analytics, Advertising or marketing, Fraud prevention, security, and compliance""",
 Fyber,Precise Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,https://developer.fyber.com/hc/en-us/articles/360015740457-Apple-s-App-Privacy-Details
 Fyber,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
 Fyber,Personal Identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
 Fyber,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
 Fyber,Crash logs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Advertising or marketing,
 Fyber,Other actions*(Offer Wall Customers only),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),App functionality,
-Intercom,Email address,Yes,Yes,No,Required,"Developer communications, App functionality",https://www.intercom.com/help/en/articles/4686934-apple-s-app-store-data-privacy-details-and-intercom-s-ios-sdk
-Intercom,Approximate Location,Yes,Yes,No,Required,App functionality,
-Intercom,Photos,Yes,Yes,No,Required,App functionality,
-Intercom,Videos,Yes,Yes,No,Required,App functionality,
-Intercom,Other actions,Yes,Yes,No,Required,App functionality,
-Intercom,In-app search history,Yes,Yes,No,Required,"Analytics, App functionality",
-Intercom,Device or other identifiers,Yes,Yes,No,Required,"Developer communications, App functionality, Analytics",
-Intercom,Page views and taps in app,Yes,Yes,No,Required,"Developer communications, App functionality, Analytics",
-Intercom,Custom Data as Events - Please check,Yes,Yes,No,Required,"Select based on implementation, will be from above list",
-Mixpanel,Approximate Location,Yes,Yes,No,Required,"Developer communications, Analytics",https://mixpanel.com/legal/app-store-privacy-details/
-Mixpanel,Personal Identifiers,Yes,Yes,No,Required,"Developer communications, Analytics",
-Mixpanel,Device or other identifiers,Yes,Yes,No,Required,"Developer communications, Analytics",
-Mixpanel,Page views and taps in app,Yes,Yes,No,Required,"Developer communications, Analytics",
-Mixpanel,Custom Data as Events - Please check with developers who implemented Mixpanel,Yes,Yes,No,Required,Select from above purposes,
+Intercom,Email address,Yes,No,No,Required,"Developer communications, App functionality",https://www.intercom.com/help/en/articles/4686934-apple-s-app-store-data-privacy-details-and-intercom-s-ios-sdk
+Intercom,Approximate Location,Yes,No,No,Required,App functionality,
+Intercom,Photos,Yes,No,No,Required,App functionality,
+Intercom,Videos,Yes,No,No,Required,App functionality,
+Intercom,Other actions,Yes,No,No,Required,App functionality,
+Intercom,In-app search history,Yes,No,No,Required,"Analytics, App functionality",
+Intercom,Device or other identifiers,Yes,No,No,Required,"Developer communications, App functionality, Analytics",
+Intercom,Page views and taps in app,Yes,No,No,Required,"Developer communications, App functionality, Analytics",
+Intercom,Custom Data as Events - Please check,Yes,No,No,Required,"Select based on implementation, will be from above list",
+Mixpanel,Approximate Location,Yes,No,No,Required,"Developer communications, Analytics",https://mixpanel.com/legal/app-store-privacy-details/
+Mixpanel,Personal Identifiers,Yes,No,No,Required,"Developer communications, Analytics",
+Mixpanel,Device or other identifiers,Yes,No,No,Required,"Developer communications, Analytics",
+Mixpanel,Page views and taps in app,Yes,No,No,Required,"Developer communications, Analytics",
+Mixpanel,Custom Data as Events - Please check with developers who implemented Mixpanel,Yes,No,No,Required,Select from above purposes,
 Stripe,Personal Identifiers,Yes,Yes,No,Required,App functionality,https://support.stripe.com/questions/stripe-ios-sdk-privacy-details
 Stripe,Page views and taps in app,Yes,Yes,No,Required,"App functionality, Analytics",
 Stripe,"Credit card, debit card or bank account number*(Optional, need to look at implementation)",Yes,Yes,No,Optional,App functionality,
 Stripe,"Email, Phone Number*(Optional, need to look at implementation)",Yes,Yes,No,Optional,App functionality,
-Revenue Cat,Purchase history,Yes,Yes,No,Required,"Analytics, App Functionality",https://docs.revenuecat.com/docs/google-plays-data-safety#whats-next
-Revenue Cat,Personal Identifiers*(Check Implementation),Yes,Yes,No,Optional,"Analytics, App Functionality",
-Revenue Cat,Device or other identifiers*(Check Implementation),Yes,Yes,No,Optional,"Analytics, App Functionality",
-Revenue Cat,"Name, Email address, Phone number*(Optional, need to look at implementation)",Yes,Yes,No,Optional,"Analytics, App Functionality",
+Revenue Cat,Purchase history,Yes,No,No,Required,"Analytics, App Functionality",https://docs.revenuecat.com/docs/google-plays-data-safety#whats-next
+Revenue Cat,Personal Identifiers*(Check Implementation),Yes,No,No,Optional,"Analytics, App Functionality",
+Revenue Cat,Device or other identifiers*(Check Implementation),Yes,No,No,Optional,"Analytics, App Functionality",
+Revenue Cat,"Name, Email address, Phone number*(Optional, need to look at implementation)",Yes,No,No,Optional,"Analytics, App Functionality",
 Google Maps SDK,Device or other identifiers,Yes,Yes,No,Required,Analytics,https://developers.google.com/maps/documentation/android-sdk/play-data-disclosure
 Google Maps SDK,Crash logs,Yes,Yes,No,Required,Analytics,
 Google Maps SDK,Diagnostics,Yes,Yes,No,Required,Analytics,
 Google Maps SDK,Page views and taps in app(check implementation),Yes,Yes,No,Optional,Analytics,
 Google Maps SDK,Precise Location,Yes,Yes,No,Optional,App functionality,
 Google Maps SDK,Approximate Location,Yes,Yes,No,Optional,App functionality,
-Snowplow SDK,Approximate Location,Yes,Yes,No,Optional,Analytics,https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/mobile-trackers/android-google-play-data-safety/
-Snowplow SDK,Page views and taps in app,Yes,Yes,No,Optional,Analytics,
-Snowplow SDK,Other actions,Yes,Yes,No,Optional,Analytics,
-Snowplow SDK,Crash logs,Yes,Yes,No,Optional,Analytics,
-Snowplow SDK,Diagnostics,Yes,Yes,No,Optional,Analytics,
-Snowplow SDK,Device or other identifiers,Yes,Yes,No,Optional,Analytics,
+Snowplow SDK,Approximate Location,Yes,No,No,Optional,Analytics,https://docs.snowplowanalytics.com/docs/collecting-data/collecting-from-own-applications/mobile-trackers/android-google-play-data-safety/
+Snowplow SDK,Page views and taps in app,Yes,No,No,Optional,Analytics,
+Snowplow SDK,Other actions,Yes,No,No,Optional,Analytics,
+Snowplow SDK,Crash logs,Yes,No,No,Optional,Analytics,
+Snowplow SDK,Diagnostics,Yes,No,No,Optional,Analytics,
+Snowplow SDK,Device or other identifiers,Yes,No,No,Optional,Analytics,
 Branch,Page views and taps in app,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",https://help.branch.io/using-branch/docs/answering-the-google-play-store-privacy-questions
 Branch,Other user-generated content,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
 Branch,Web browsing history,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
