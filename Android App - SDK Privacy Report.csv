@@ -127,4 +127,4 @@ Branch,Page views and taps in app,Yes,Yes,No,Optional,"App Functionality, Analyt
 Branch,Other user-generated content,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
 Branch,Web browsing history,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
 Branch,Device or Other Identifiers,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
-Firebase Authentication SDK, App info and performance, Yes, Yes, No, Required, App functionality,https://firebase.google.com/docs/android/play-data-disclosure#data_collected_automatically_3,
+Firebase Authentication SDK,App info and performance,Yes,Yes,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure#data_collected_automatically_3
