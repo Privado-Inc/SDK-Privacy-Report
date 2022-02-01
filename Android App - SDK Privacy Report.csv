@@ -128,3 +128,7 @@ Branch,Other user-generated content,Yes,Yes,No,Optional,"App Functionality, Anal
 Branch,Web browsing history,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
 Branch,Device or Other Identifiers,Yes,Yes,No,Optional,"App Functionality, Analytics, Advertising or Marketing, Personalization",
 Firebase Authentication SDK,App info and performance,Yes,Yes,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure#data_collected_automatically_3
+Google Analytics for Firebase SDK,Approximate Location,Yes,Yes,No,Required,Unkown,https://support.google.com/analytics/answer/11582702
+Google Analytics for Firebase SDK,Device or other identifiers,Yes,Yes,No,Required,Analytics,
+Google Analytics for Firebase SDK,Purchase history,Yes,Yes,No,Required,Analytics,
+Google Analytics for Firebase SDK,App lifecycle events,Yes,Yes,No,Required,Analytics,
