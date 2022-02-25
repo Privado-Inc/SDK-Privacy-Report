@@ -135,3 +135,5 @@ Google Analytics for Firebase SDK,Page views and taps in app,Yes,Yes,No,Required
 Microsoft App Center SDK,Crash logs,Yes,Yes,No,Required,Analytics,https://docs.microsoft.com/en-us/appcenter/gdpr/faq#app-store-privacy-report
 Microsoft App Center SDK,Diagnostics,Yes,Yes,No,Required,Analytics,
 Microsoft App Center SDK,Other app performance data,Yes,Yes,No,Required,Analytics,
+UMP SDK,Approximate location,Yes,Yes,No,Required,App functionality,https://developers.google.com/admob/ump/android/play-data-disclosure,
+UMP SDK,Device or other IDs,Yes,Yes,No,Required,App functionality,
