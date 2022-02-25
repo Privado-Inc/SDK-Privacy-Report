@@ -137,3 +137,4 @@ Microsoft App Center SDK,Diagnostics,Yes,Yes,No,Required,Analytics,
 Microsoft App Center SDK,Other app performance data,Yes,Yes,No,Required,Analytics,
 UMP SDK,Approximate location,Yes,Yes,No,Required,App functionality,https://developers.google.com/admob/ump/android/play-data-disclosure
 UMP SDK,Device or other IDs,Yes,Yes,No,Required,App functionality,
+Play Billing SDK,Purchase History,Yes,No,No,Required,App functionality,No official source, check implementation
