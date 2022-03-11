@@ -17,43 +17,6 @@ Facebook SDK: App Events & Analytics,Name(For Advanced Matching),Yes,Yes,No,Requ
 Facebook SDK: App Events & Analytics,Email address(For Advanced Matching),Yes,Yes,No,Required,"Advertising or marketing, Analytics",
 Facebook SDK: App Events & Analytics,Phone number(For Advanced Matching),Yes,Yes,No,Required,"Advertising or marketing, Analytics",
 Facebook SDK: App Events & Analytics,Address(For Advanced Matching),Yes,Yes,No,Required,"Advertising or marketing, Analytics",
-Unity3d Ads,Approximate location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",https://unityads.unity3d.com/help/ios/apple-privacy-survey
-Unity3d Ads,Other user-generated content*(Unity Ads may collect this information if a user submits a report of an ad creative),Yes,Yes,No,Optional,App functionality,http://documentation.cloud.unity3d.com/en/articles/4702483-apple-nutritional-labels
-Unity3d Ads,User IDs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),App functionality,
-Unity3d Ads,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,App interactions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Advertising or marketing, Analytics",
-Unity3d Ads,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Analytics,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,http://documentation.cloud.unity3d.com/en/articles/4694233-apple-nutritional-info-unity-analytics
-Unity Analytics,User IDs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,https://docs.unity3d.com/Manual/UnityAnalyticsDataPrivacy.html
-Unity Analytics,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,App interactions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,Other Performance Data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Analytics,Other Data Types*(Check implementation),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Developer communication, Analytics, App functionality",
-Unity deltaDNA,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694239-apple-nutritional-info-deltadna
-Unity deltaDNA,User IDs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,App interactions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity deltaDNA,Other Data Types(Check Implementation),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Developer communication, Analytics, App functionality, Personalization",
-Unity GameTune,Approximate Location,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694234-apple-nutritional-info-gametune
-Unity GameTune,User IDs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",https://docs.gametune.unity3d.com/#privacy-consent-handling
-Unity GameTune,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,Purchase history,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,App interactions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"Analytics, Personalization",
-Unity GameTune,Diagnostic Data*(May Collect Data),Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
-Unity Remote Config,User IDs,Yes,Yes,No,Required,"Analytics, Personalization",http://documentation.cloud.unity3d.com/en/articles/4694241-apple-nutritional-info-remote-config
-Unity Remote Config,Device or other identifiers,Yes,Yes,No,Required,"Analytics, Personalization",
-Unity IAP,Purchases,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",http://documentation.cloud.unity3d.com/en/articles/4694224-apple-nutritional-info-unity-iap
-Unity Crash Analytics,Other user-generated content,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",http://documentation.cloud.unity3d.com/en/articles/4704486-apple-nutritional-info-crash-analytics
-Unity Crash Analytics,User IDs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Crash logs,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Other app performance data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
-Unity Crash Analytics,Diagnostic Data,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),"App functionality, Analytics",
 Flurry: Analytics,Device or other identifiers,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,https://www.flurry.com/blog/flurry-guidance-apple-app-privacy-details/
 Flurry: Analytics,App interactions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
 Flurry: Analytics,Other actions,Yes,Yes,No,Optional(Given you implement consent/Opt-Out),Analytics,
@@ -138,3 +101,30 @@ Microsoft App Center SDK,Other app performance data,Yes,Yes,No,Required,Analytic
 UMP SDK,Approximate location,Yes,Yes,No,Required,App functionality,https://developers.google.com/admob/ump/android/play-data-disclosure
 UMP SDK,Device or other IDs,Yes,Yes,No,Required,App functionality,
 Play Billing SDK,Purchase History,Yes,No,No,Required,App functionality,No official source check implementation
+Unity Analytics,Approximate location,Yes,No,No,Required,App functionality,https://docs.unity.com/analytics/GoogleDataSafety.html
+Unity Analytics,User IDs,Yes,No,No,Required,App functionality,
+Unity Analytics,Purchase history,Yes,No,No,Required,App functionality,
+Unity Analytics,Crash logs,Yes,No,No,Required,"App functionality, Analytics",
+Unity Analytics,Diagnostics,Yes,Yes,No,Required,"App functionality, Analytics",
+Unity Analytics,Other app performance data,Yes,Yes,No,Required,"App functionality, Analytics",
+Unity Analytics,Device or other identifiers,Yes,No,No,Required,App functionality,
+Unity Ads,Approximate location,Yes,Yes,No,Required,"Advertising or marketing, Analytics, App functionality, Fraud prevention, security, and compliance",
+Unity Ads,User IDs,Yes,Yes,No,Required,App functionality,
+Unity Ads,Purchase history,Yes,Yes,No,Optional,"Advertising or marketing, Analytics",
+Unity Ads,App interactions,Yes,Yes,No,Required,"Advertising or marketing, Analytics, Fraud prevention, security, and compliance",
+Unity Ads,Other actions,Yes,Yes,No,Required,"Advertising or marketing, Analytics, Fraud prevention, security, and compliance",
+Unity Ads,Diagnostics,Yes,Yes,No,Required,"App functionality, Analytics",
+Unity Ads,Device or other identifiers,Yes,Yes,No,Required,"Advertising or marketing, Analytics, App functionality, Fraud prevention, security, and compliance",
+Unity IAP,Purchase history,Yes,Yes,No,Required,"App functionality, Analytics",https://docs.unity.com/ugs-overview/Resources/IAP_Google_data_safety.pdf
+Unity deltaDNA,Approximate location,Yes,No,No,Required,App functionality,https://docs.deltadna.com/account-management/7531-2/
+Unity deltaDNA,User IDs,Yes,No,No,Required,App functionality,
+Unity deltaDNA,Other actions,Yes,No,No,Required,Analytics,
+Unity RemoteConfig,Approximate location,Yes,No,Yes,Required,App functionality,https://docs.unity.com/remote-config/GoogleDataSafety.html
+Unity RemoteConfig,User IDs,Yes,No,Yes,Required,App functionality,
+Unity RemoteConfig,Device or other identifiers,Yes,No,Yes,Required,App functionality,
+Unity Cloud Diagnostics,Crash logs,Yes,No,No,Required,Analytics,https://docs.unity.com/cloud-diagnostics/Privacy/GoogleDataSafety.html
+Unity Cloud Diagnostics,Diagnostics,Yes,No,No,Required,Analytics,
+Unity Cloud Diagnostics,Other app performance data,Yes,No,No,Required,Analytics,
+Unity Cloud Diagnostics,Device or other identifiers,Yes,No,No,Required,Analytics,
+Unity Mediation,Approximate Location,Yes,Yes,No,Required,"Analytics, App functionality, Advertising or marketing",https://docs.unity.com/mediation/GoogleDataSafety.html
+Unity Mediation,Device or other identifiers,Yes,Yes,No,Required,"Analytics, App functionality, Advertising or marketing",
