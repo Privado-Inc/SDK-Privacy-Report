@@ -128,20 +128,20 @@ Unity Cloud Diagnostics,Other app performance data,Yes,No,No,Required,Analytics,
 Unity Cloud Diagnostics,Device or other IDs,Yes,No,No,Required,Analytics,
 Unity Mediation,Approximate Location,Yes,Yes,No,Required,"Analytics, App functionality, Advertising or marketing",https://docs.unity.com/mediation/GoogleDataSafety.html
 Unity Mediation,Device or other IDs,Yes,Yes,No,Required,"Analytics, App functionality, Advertising or marketing",
-Cloud Functions for Firebase,Device or other IDs,Yes,No,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
-Cloud Messaging,Device or other IDs,Yes,No,No,Required,Developer communications,https://firebase.google.com/docs/android/play-data-disclosure
-Cloud Storage for Firebase,Device or other IDs,Yes,Yes,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
-Dynamic Links,App interactions,Yes,No,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
-Dynamic Links,Other app performance data,Yes,No,No,Required,App functionality,
-In-App Messaging,Device or other IDs,Yes,No,No,Required,Developer communications,https://firebase.google.com/docs/android/play-data-disclosure
-In-App Messaging,App interactions,Yes,No,No,Required,Analytics,
+Firebase Cloud Functions for Firebase,Device or other IDs,Yes,No,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
+Firebase Cloud Messaging,Device or other IDs,Yes,No,No,Required,Developer communications,https://firebase.google.com/docs/android/play-data-disclosure
+Firebase Cloud Storage for Firebase,Device or other IDs,Yes,Yes,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
+Firebase Dynamic Links,App interactions,Yes,No,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
+Firebase Dynamic Links,Other app performance data,Yes,No,No,Required,App functionality,
+Firebase In-App Messaging,Device or other IDs,Yes,No,No,Required,Developer communications,https://firebase.google.com/docs/android/play-data-disclosure
+Firebase In-App Messaging,App interactions,Yes,No,No,Required,Analytics,
 Installations,Device or other IDs,Yes,No,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure
 Firebase ML model downloader,Device or other IDs,Yes,No,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
 Firebase ML model downloader,Diagnostics,Yes,No,No,Required,Analytics,
-Performance Monitoring,Approximate location,Yes,No,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure
-Performance Monitoring,Diagnostics,Yes,No,No,Required,Analytics,
-Performance Monitoring,Other app performance data,Yes,No,No,Required,Analytics,
-Performance Monitoring,Device or other IDs,Yes,No,No,Required,Analytics,
-Remote Config,Device or other IDs,Yes,No,No,Required,Personalization,https://firebase.google.com/docs/android/play-data-disclosure#remote-config
-Remote Config,Approximate location,Yes,No,No,Required,Personalization,
-Remote Config,Other info,Yes,No,No,Required,Personalization,
+Firebase Performance Monitoring,Approximate location,Yes,No,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure
+Firebase Performance Monitoring,Diagnostics,Yes,No,No,Required,Analytics,
+Firebase Performance Monitoring,Other app performance data,Yes,No,No,Required,Analytics,
+Firebase Performance Monitoring,Device or other IDs,Yes,No,No,Required,Analytics,
+Firebase Remote Config,Device or other IDs,Yes,No,No,Required,Personalization,https://firebase.google.com/docs/android/play-data-disclosure#remote-config
+Firebase Remote Config,Approximate location,Yes,No,No,Required,Personalization,
+Firebase Remote Config,Other info,Yes,No,No,Required,Personalization,
