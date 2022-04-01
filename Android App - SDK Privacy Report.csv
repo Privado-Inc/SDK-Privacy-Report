@@ -135,7 +135,7 @@ Firebase Dynamic Links,App interactions,Yes,No,No,Required,App functionality,htt
 Firebase Dynamic Links,Other app performance data,Yes,No,No,Required,App functionality,
 Firebase In-App Messaging,Device or other IDs,Yes,No,No,Required,Developer communications,https://firebase.google.com/docs/android/play-data-disclosure
 Firebase In-App Messaging,App interactions,Yes,No,No,Required,Analytics,
-Installations,Device or other IDs,Yes,No,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure
+Firebase Installations,Device or other IDs,Yes,No,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure
 Firebase ML model downloader,Device or other IDs,Yes,No,No,Required,App functionality,https://firebase.google.com/docs/android/play-data-disclosure
 Firebase ML model downloader,Diagnostics,Yes,No,No,Required,Analytics,
 Firebase Performance Monitoring,Approximate location,Yes,No,No,Required,Analytics,https://firebase.google.com/docs/android/play-data-disclosure
