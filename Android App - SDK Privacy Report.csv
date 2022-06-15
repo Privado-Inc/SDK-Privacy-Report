@@ -145,3 +145,9 @@ Firebase Performance Monitoring,Device or other IDs,Yes,No,No,Required,Analytics
 Firebase Remote Config,Device or other IDs,Yes,No,No,Required,Personalization,https://firebase.google.com/docs/android/play-data-disclosure#remote-config
 Firebase Remote Config,Approximate location,Yes,No,No,Required,Personalization,
 Firebase Remote Config,Other info,Yes,No,No,Required,Personalization,
+ARCore,User IDs,Yes,No,No,Required,Analytics,https://developers.google.com/ar/develop/play-safety-label
+ARCore,Device or other IDs,Yes,No,No,Required,Analytics,
+ARCore,Diagnostics,Yes,No,No,Required,Analytics,
+ARCore,Other app performance data,Yes,No,No,Required,Analytics,
+
+
