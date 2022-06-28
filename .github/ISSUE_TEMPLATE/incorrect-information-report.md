@@ -1,7 +1,7 @@
 ---
 name: Incorrect Information Report
 about: Help us identify incorrect details for a SDK
-title: Incorrect Information
+title: Incorrect Information Report System
 labels: ''
 assignees: ''
 
